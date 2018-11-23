@@ -1,5 +1,5 @@
 baseurl = "https://study-blog.tokyo"
-languageCode = "ja-jp"
+languageCode = "ja"
 title = "StudyBlog"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""

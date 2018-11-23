@@ -1,11 +1,10 @@
 +++
 categories = ["", ""]
 date = {{ .Date }}
-description = ""
-draft = true
-image = ""
+images = []
 tags = ["", ""]
 title = ""
+banner = ""
 +++
 
 
