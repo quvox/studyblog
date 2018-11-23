@@ -1,0 +1,39 @@
+[articles]
+    read_more = "続きを読む"
+    words = "文字"
+    readingtime = "minute read"
+    share = "シェア"
+    comments = "コメント"
+
+# Linked older/newer posts at the bottom of each one
+[articles.linked_posts]
+    older = "古い記事"
+    newer = "新しい記事"
+
+[search]
+    placeholder = "検索"
+
+[pagination]
+    previous = "前"
+    next = "次"
+
+[profile]
+    follow_button = "Follow"
+    tags = "タグ"
+    posts = "記事"
+
+[page_not_found]
+    title = "404 - page not found"
+    subtitle = "ページが存在しません"
+
+[widgets.categories]
+    title = "カテゴリー"
+
+[widgets.recent_articles]
+    title = "最近の記事"
+
+[widgets.tag_cloud]
+    title = "タグクラウド"
+
+[widgets.tags]
+    title = "タグ"
