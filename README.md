@@ -17,3 +17,14 @@ bash prepare.sh
 ２．記事を編集する
 
 記事の場所は、**content/post/<ファイル名>**
+
+３．図のリンク修正
+編集後に以下のコマンドを実行する
+```
+./modify_imgurl.sh
+```
+
+４．git commit and push
+```
+./commit_push.sh
+```
