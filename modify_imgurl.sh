@@ -10,5 +10,7 @@ for f in *.png; do
     if [ ! -z ${TARGET} ]; then
         sed -i '' -e "s#${URL}#/images/${f}#g" ${TARGET}
         mv ${f} ../../static/images/
+    else
+        rm -f ${f}
     fi
 done
