@@ -24,7 +24,15 @@ bash prepare.sh
 ./modify_imgurl.sh
 ```
 
-４．git commit and push
+４．確認
+```
+hugo server -D
+```
+http://localhost:1313/
+にアクセスして確認する。
+
+
+５．git commit and push
 ```
 ./commit_push.sh
 ```
