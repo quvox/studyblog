@@ -1,10 +1,10 @@
 +++
-categories = ["", ""]
+categories = ["算数"]
 date = {{ .Date }}
 images = []
-tags = ["", ""]
+tags = ["問題", ""]
 title = ""
-banner = ""
+#banner = ""
 +++
 
 
