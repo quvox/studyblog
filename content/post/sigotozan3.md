@@ -64,9 +64,9 @@ $\frac{64}{48}=1+ \frac{5-3}{240}\times x$
 
 $\frac{64}{48}-1=1+ \frac{1}{120}\times x-1$ 　　　　　 ($\frac{5-3}{240}$を約分した) 
 
-$\frac{64-48}{48}=\frac{2}{240}\times x$
+$\frac{64-48}{48}=\frac{1}{120}\times x$
 
-$\frac{1}{3}\div\frac{2}{240}=\frac{2}{240}\times x\div\frac{2}{240}$
+$\frac{1}{3}\div\frac{1}{120}=\frac{1}{120}\times x\div\frac{1}{120}​$
 
 $40 = x$
 
