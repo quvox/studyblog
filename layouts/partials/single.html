@@ -1,0 +1,6 @@
+{{ define "main" }}
+    {{ partial "single_article" . }}
+    <div class="disqus-comments">
+      {{ template "_internal/disqus.html" . }}
+    </div>
+{{ end }}
