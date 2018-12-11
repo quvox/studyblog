@@ -2,8 +2,8 @@
 categories = ["算数"]
 date = 2018-12-11T19:53:36+09:00
 images = []
-tags = ["問題", ""]
-title = ""
+tags = ["問題", "流水算"]
+title = "流水算の問題２"
 #banner = ""
 +++
 
