@@ -1,0 +1,58 @@
+<header class="article-header">
+    <a href="{{ .Permalink }}">
+    <h1 class="article-title" itemprop="name">
+        {{ .Title }}
+    </h1>
+    </a>
+    <div class="article-meta">
+        {{ if not .Params.nodateline }}
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.date_format }}</time>
+            &middot;
+            {{ .WordCount }}
+            {{ with .Site.Data.l10n.articles.words }}{{.}}{{end}}
+            &middot;
+            {{ .ReadingTime }}
+            {{ with .Site.Data.l10n.articles.readingtime }}{{.}}{{end}}
+        </div>
+        {{ end }}
+        {{ if isset .Params "categories" }}
+            {{ $categoriesLen := len .Params.categories }}
+            {{ if gt $categoriesLen 0 }}
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                {{ range $k, $v := .Params.categories }}
+                {{ $url := printf "categories/%s" (. | urlize | lower) }}
+                <a class="article-category-link" href="{{ $url | absURL }}">{{ . }}</a>
+                {{ if lt $k (sub $categoriesLen 1) }}&middot;{{ end }}
+                {{ end }}
+            </div>
+            {{ end }}
+        {{ end }}
+
+        {{ if isset .Params "tags" }}
+            {{ $tagsLen := len .Params.tags }}
+            {{ if gt $tagsLen 0 }}
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                {{ range $k, $v := .Params.tags }}
+                {{ $url := printf "tags/%s" (. | urlize | lower) }}
+                <a class="article-category-link" href="{{ $url | absURL }}">{{ . }}</a>
+                {{ if lt $k (sub $tagsLen 1) }}&middot;{{ end }}
+                {{ end }}
+            </div>
+            {{ end }}
+        {{ end }}
+    </div>
+    <table>
+        <tr>
+            <td>
+                <a href="//education.blogmura.com/sugaku/ranking.html"><img src="//education.blogmura.com/sugaku/img/sugaku88_31.gif" width="88" height="31" border="0" alt="にほんブログ村 教育ブログ 算数・数学科教育へ" /></a><br /><a href="//education.blogmura.com/sugaku/ranking.html">にほんブログ村</a>
+            </td>
+            <td>
+                <a href="//juken.blogmura.com/ranking.html"><img src="//juken.blogmura.com/img/juken88_31.gif" width="88" height="31" border="0" alt="にほんブログ村 受験ブログへ" /></a><br /><a href="//juken.blogmura.com/ranking.html">にほんブログ村</a>
+            </td>
+        </tr>
+    </table>
+</header>
