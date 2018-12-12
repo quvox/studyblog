@@ -5,6 +5,11 @@ if [ $# -ne 1 ]; then
   exit 1
 fi
 
+if [ -f "content/post/$1" ]; then
+  echo "$1 already exists"
+  exit 1
+fi
+
 hugo new post/$1
 open content/post
 

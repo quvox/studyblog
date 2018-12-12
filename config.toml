@@ -26,7 +26,7 @@ enableRobotsTXT = true
     author = "quvox"
     bio = "お父さんしてます"
     location = "Tokyo"
-    site_description = "算数を中心に勉強の助けになるような情報を載せています。主に問題とその解答ですが、受験テクニックではなく「なぜそうなるか」を重点的に説明しています。"
+    site_description = "算数を中心に、勉強の助けになるような情報を載せています。特殊算の受験テクニックではなく「なぜそうなるか」を重点的に説明しています。そのため、小学校でも方程式の考え方を使えるようにしていきます。"
     avatar = "css/images/avatar.png"
     # Enter your email address to display your Gravatar icon in the profile. If not set the theme
     # will fallback to the avatar.
