@@ -18,7 +18,7 @@ title = "割合の問題３"
 
 AはBの5倍なので、$A=B\times6$
 
-AとCの和はBの7倍なので、$A+C = B\times8$
+AとCの和はBの8倍なので、$A+C = B\times8$
 
 Aは$B\times5$なので、これを2つ目の式に入れる。
 
