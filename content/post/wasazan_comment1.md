@@ -1,8 +1,8 @@
 +++
-categories = ["算数"]
+categories = ["日記"]
 date = 2018-12-09T17:46:08+09:00
 images = []
-tags = ["コメント", "和差算"]
+tags = ["算数", "和差算"]
 title = "和差算はどうやって解く？"
 
 #banner = ""

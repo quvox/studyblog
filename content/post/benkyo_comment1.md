@@ -1,5 +1,5 @@
 +++
-categories = ["算数"]
+categories = ["日記"]
 date = 2018-12-19T23:00:49+09:00
 images = []
 tags = ["勉強方法", "国語", "算数"]

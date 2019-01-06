@@ -1,9 +1,10 @@
 +++
-categories = ["算数"]
+categories = ["日記"]
 date = 2018-12-02T03:27:47+09:00
 images = []
-tags = ["コメント", "つるかめ算"]
+tags = ["算数", "つるかめ算"]
 title = "つるかめ算とは何か"
+
 #banner = ""
 +++
 

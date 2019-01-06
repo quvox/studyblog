@@ -1,8 +1,8 @@
 +++
-categories = ["算数"]
+categories = ["日記"]
 date = 2018-12-13T23:46:53+09:00
 images = []
-tags = ["コメント", "勉強方法"]
+tags = ["算数", "勉強方法"]
 title = "算数の勉強方法"
 
 #banner = ""
